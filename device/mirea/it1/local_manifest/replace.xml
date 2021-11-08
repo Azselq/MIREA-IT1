@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<remote name ="phh" fetch ="https://github.com/phhusson/" />
+
+	<remove-project name ="platform/frameworks/av" />
+	<project path="frameworks/av" name="platform/frameworks/av" remote ="phh" revision="android-12.0.0_r3-phh" />
+	
+	<remove-project  name="platform/frameworks/native" />
+	<project path="frameworks/native" name="platform/frameworks/native" remote = "phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/packages/apps/Bluetooth" />
+	<project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote = "phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/external/selinux" />
+	<project path="external/selinux" name="platform/external/selinux" remote = "phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/system/core" />
+	<project path="system/core" name="platform/system/core" remote= " phh" revision = "master" />
+	
+	<remove-project  name="platform/system/nfc" />
+	<project path="system/nfc" name="platform/system/nfc" remote= " phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/system/netd" />
+	<project path="system/netd" name="platform/system/netd" remote= " phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/system/extras" />
+	<project path="system/extras" name="platform/system/extras" remote= " phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/frameworks/base" />
+	<project path="frameworks/base" name="platform/frameworks/base" remote= " phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/bootable/recovery" />
+	<project path="bootable/recovery" name="platform/bootable/recovery" remote= " phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/system/bt" />
+	<project path="system/bt" name="platform/system/bt" remote= " phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/system/vold" />
+	<project path="system/vold" name="platform/system/vold" remote= " phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/frameworks/opt/telephony" />
+	<project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" remote= " phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/packages/modules/Wifi" />
+	<project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" remote= " phh" revision = "android-12.0.0_r3-phh" />
+
+	<remove-project  name="platform/system/bpf"  />
+	<project path="system/bpf" name="platform/system/bpf" remote= " phh" revision = "android-12.0.0_r3-phh" />
+</manifest>
