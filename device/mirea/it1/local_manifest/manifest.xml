@@ -4,9 +4,13 @@
 	
 
 
-	<project path="system/base" name="platform/system/base" remote ="phh" revision = "Repositori` ydalen" />
-	<project path="system/void" name="platform/system/void" remote ="phh" revision = "android-12.0.0_r3-phh" />
+	
 	<project path="hardware/overlay" name="vendor/hardware/overlay" remote ="phh" revision = "pie" />
 	<project path="foss" name="vendor/foss" remote ="phh" revision = "master" />
+
+
+	<remote name="Denis" fetch ="https://github.com/Azselq/MIREA-IT1" />
+	<project path ="device/mirea/it1" name="mirea/it1" remote ="Denis" revision= "main" />
+	
 	
 </manifest>
